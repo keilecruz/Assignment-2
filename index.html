@@ -6,7 +6,10 @@
   Date: Sept 12th, 2026
   CSC 372-01
 
-  This is the index.html page for assignment 2
+  This is the index.html page for assignment 2 where it has the site-header and navigation, hero section,
+  upcoming events grid, about section, and footer. Most of the information that contains on the home page is
+  specifically information that contains upcoming events for a University to which it would allow an
+  upcoming student to discover new activities on campus.
 -->
 
 <head>
@@ -45,14 +48,132 @@
     <main>
         <!-- Hero Section -->
         <section class="hero">
+
             <div class="hero-content">
+
                 <h2>Find Your Next Campus Experience!</h2>
-                <p> Explore events, activities, and opportunities happening across Birchmere University. Meet new people,
-                    discover student organizations, and get involved on campus! </p> <a class="button"
-                    href="#upcoming-events"> View Upcoming Events </a>
+
+                <p> Explore events, activities, and opportunities happening across Birchmere University. Meet new
+                    people,
+                    discover student organizations, and get involved on campus!
+                </p>
+                <a class="button" href="#upcoming-events"> View Upcoming Events
+                </a>
             </div>
 
+            <figure class="hero-image">
+                <img src="images/campus-index.jpg" alt="Students walking around Birchmere Campus">
+                <figcaption>
+                    There is always something happening on campus!
+                </figcaption>
+            </figure>
+
+        </section>
+
+        <!-- Upcoming events display -->
+
+        <!-- Event Card 1 -->
+        <article class="event-card featured">
+            <figure>
+                <img src="images/event-main.jpg" alt="Students interacting with student organizations.">
+                <figcaption> Featured Event</figcaption>
+            </figure>
+
+            <div class="event-card-content">
+
+                <p class="category">Student Life</p>
+
+                <h3>Fall Student Organization Fair</h3>
+
+                <p> <time datetime="2026-09-24T11:00"> September 24, 2026 | 11:00 AM </time> </p>
+
+                <p> University Quad </p>
+
+                <p>
+                    Meet all the student organizations from Birchmere University! Learn about each of the campus clubs
+                    and find a community that interest's you.
+                </p>
+
+                <a href="event.html"> View Details</a>
+            </div>
+
+        </article>
+
+        <!-- Event Card 2 -->
+        <article class="event-card">
+
+            <figure>
+
+                <img src="" alt="">
+
+                <figcaption>
+
+                </figcaption>
+
+            </figure>
+
+
+        </article>
+
+        <!-- Event Card 3 -->
+
+        <!-- Event Card 4 -->
+
+        <!-- Event Card 5 -->
+
+        <!-- About Section -->
+        <section id="about-section">
+
+            <h2>About Birchmere's Campus Events</h2>
+
+            <p>Birchmere Campus Events allows students to discover activities and seek opportunities that are happening
+                on
+                campus. This guide brings important event information into just one singular place!
+            </p>
+
+            <p>Depending on what you are looking for either student organizations, entertainment, career opportunites,
+                or
+                ways to have experience in volunteer work, our guide can help you find what your are interested in!
+            </p>
+
+            <h3>How We Help</h3>
+
+            <ul>
+                <li>Discover upcoming campus activities.</li>
+                <li>Connect with student organizations and communities.</li>
+                <li>Find opportunities for leadership and involvement.</li>
+                <li>Learn about career and volunteer opportunities.</li>
+            </ul>
+
+        </section>
+
     </main>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="footer-content">
+
+            <p>
+                &copy; 2026 Birchmere University Campus Events
+            </p>
+
+            <p>
+                Contact:
+                <a href="mailto:events@birchmere.edu"> events@birchmere.edu </a>
+            </p>
+
+            <nav>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="event.html">Featured Event</a></li>
+                </ul>
+
+            </nav>
+        </div>
+
+    </footer>
 
 
 </body>
