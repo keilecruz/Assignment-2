@@ -7,3 +7,15 @@ https://stock.adobe.com/search?k=students+walking+on+college+campus
 
 https://www.google.com/search?sca_esv=2d0686cf1d3721e9&sxsrf=APpeQnv9E3u87mU-WlFYedPZCCYEQ3nsig:1789362406632&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832cY0rzciwbWdjW1sV3VNzLwFidMQk-ln2aImlXwRYpp21jhxEzGhLPghdJiv-3VQ3LZgKti4Ghq2ZYDGP_Akd955-xSlvR937nStM3F5fMAID25D_IXd4G5Fqx0MyTLXdBNdiEZamhe_w-ADcqv8hrui0deZyrUJeteKEgVxwacrjRu2XA&q=students+talking+to+clubs+and+organizations&sa=X&sqi=2&ved=2ahUKEwiMp_y0pu2WAxUkMlkFHS74GogQtKgLegQIGhAB&biw=1181&bih=771&dpr=2#sv=CAMSURoyKhBlLVo4Y3Zoc25kWmdqbWxNMg5aOGN2aHNuZFpnam1sTToOX0xQaUItdmZfTEFJMk0gBCoXCgFzEhBlLVo4Y3Zoc25kWmdqbWxNGAEwARgHIOeD6JoISggQARgBIAEoAQ:~:text=2%2C880%20%C3%97%201%2C180,2%2C880%20%C3%97%201%2C180
 (image for campus-index)
+
+https://www.american.edu/news/now-showing-au-s-star-shines-bright-during-community-movie-screening.cfm
+(movie-index image)
+
+https://www.fairfield.edu/academics/career-preparation/events-and-career-fairs/
+(career-fair image)
+
+https://news.stonybrook.edu/university/hispanic-heritage-month-opening-celebration-highlights-family-shaping-the-future/
+(hispanic heritage)
+
+https://newsroom.ucla.edu/releases/ucla-volunteer-day-2021
+(students volunteering)
