@@ -23,13 +23,13 @@ At 600px, the upcoming events changes to one column. This is where the navigatio
 ## Semantic HTML
 For this website I used several semantic elements.
 
-'\<header>' was primarily used on the top section of the website because this is where it contained the website title, logo, tagline, and navigations link.
+\<header> was primarily used on the top section of the website because this is where it contained the website title, logo, tagline, and navigations link.
 
-'\<nav>' was used as the navigation links to which allowed users to move between different pages and sections of the website.
+\<nav> was used as the navigation links to which allowed users to move between different pages and sections of the website.
 
-'\<section>' was used to organize different parts of the page such as the hero section, upcoming events, and related events.
+\<section> was used to organize different parts of the page such as the hero section, upcoming events, and related events.
 
-'\<article>' was used for every event card because of each card having it's own seperate content/information.
+\<article> was used for every event card because of each card having it's own seperate content/information.
 
 
 ## Sources 
