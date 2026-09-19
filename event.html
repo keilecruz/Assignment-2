@@ -6,10 +6,12 @@
   Date: Sept 12th, 2026
   CSC 372-01
 
-  This is the event.html page for assignment 2 where it contains a shared header and navigation link, 
-  event introduction, main content and sidebar, related events, and footer. The information that is mostly in the 
-  event's page contains detailed information on the event itself, attendee expectations, schedule, a list, and 
-  participation information.
+  This is the event.html page for assignment 2 where it contains a shared header and navigation link with
+  the index.html. The page opens up with an event introduction that has the event name, image, category, date/time,
+  and description. Then a main column and side bar are given about the specific event to which has 
+  detailed information and a button to register for the event itself. 3 Related events are also on display
+  and the shared footer between the index.html and event.html is included.
+
 -->
 
 <head>
@@ -28,6 +30,8 @@
     <header>
         <div class="site-header">
 
+            <img src="images/logo-uni.png" alt="Birchmere University Logo">
+
             <h1>Birchmere Campus Events</h1>
             <p>Discover. Connect. Get involved.</p>
 
@@ -40,6 +44,8 @@
 
             <ul>
                 <li><a href="index.html">Home</a></li>
+                <li><a href="#upcoming-events">Upcoming Events</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="event.html">Featured Event</a></li>
 
             </ul>
@@ -77,7 +83,7 @@
 
 
         <!-- Event Contend and Sidebar -->
-        <section class="event-layout">
+        <section id="about" class="event-layout">
 
             <!-- Main Event information -->
 
@@ -88,7 +94,7 @@
                     <h2>About the Event</h2>
 
                     <p>
-                        Student Organization from Birchmere University will gather together at the University Quad,
+                        Student Organizations from Birchmere University will gather together at the University Quad,
                         where they will introduce their club and activities to students. Their are so many different
                         types
                         of clubs that vary from academics, culture, recreation, volunteering, or social activities
@@ -156,7 +162,7 @@
 
                 <section>
 
-                    <h2>Accessibility & Participation</h2>
+                    <h2>Accessibility</h2>
 
                     <p>
 
@@ -185,17 +191,17 @@
                 <dl>
                     <dt>Date</dt>
 
-                    <dd> 
+                    <dd>
 
-                        <time datetime="2026-09-12"> September 12th, 2026</time> 
-                    
+                        <time datetime="2026-09-24"> September 24th, 2026</time>
+
                     </dd>
 
                     <dt>Time</dt>
 
-                    <dd> 
+                    <dd>
 
-                        <time datetime="2026-09-12T11:00"> 11:00 AM - 2:00 PM </time> 
+                        <time datetime="2026-09-12T11:00"> 11:00 AM - 2:00 PM </time>
 
                     </dd>
 
@@ -211,17 +217,17 @@
 
                     <dd>Free</dd>
 
-                </dl> 
+                </dl>
 
-                <a class="button" href="#"> Register for Event </a>
+                <a class="button" href="#register"> Register for Event </a>
 
             </aside>
 
         </section>
-
+ 
         <!-- Related Events -->
 
-        <section class="related-events">
+        <section id="upcoming-events" class="related-events">
 
             <h2>Related Events</h2>
 
@@ -245,6 +251,12 @@
 
                             <time datetime="2026-09-15T12:00"> September 15, 2026 | 12:00 PM </time>
 
+                        </p>
+
+                        <p>Student Union Plaza</p>
+
+                        <p> 
+                            Celebrate Hispanic heritage and culture through music, food, activities, and student performances!
                         </p>
 
                         <a href="event.html">View Details</a>
@@ -335,8 +347,12 @@
             <nav>
 
                 <ul>
+
                     <li><a href="index.html">Home</a></li>
+                    <li><a href="#upcoming-events">Upcoming Events</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="event.html">Featured Event</a></li>
+
                 </ul>
 
             </nav>

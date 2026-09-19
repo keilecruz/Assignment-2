@@ -6,10 +6,12 @@
   Date: Sept 12th, 2026
   CSC 372-01
 
-  This is the index.html page for assignment 2 where it has the site-header and navigation, hero section,
-  upcoming events grid, about section, and footer. Most of the information that contains on the home page is
-  specifically information that contains upcoming events for a University to which it would allow an
-  upcoming student to discover new activities on campus.
+  This is the index.html page for assignment 2 where it has a shared site-header and navigation with
+  the event.html. Their is also a hero section that gives back ground information about the site itself, 
+  then 5 upcoming event cards that contains information within them, and lastly an about section that goes 
+  more into detail about the purpose of the website itself. Also their is a footer that is shared 
+  between the index.html and event.html where it contains a copyright, email, and two useful navigation links.
+
 -->
 
 <head>
@@ -26,16 +28,24 @@
     <header>
         <div class="site-header">
 
-            <h1>Birchmere Campus Events</h1>
-            <p>Discover. Connect. Get involved.</p>
+            <img src="images/logo-uni.png" alt="Birchmere University Logo">
 
-            <!-- Navigation Links -->
+            <div class="header-text">
+
+                <h1>Birchmere Campus Events</h1>
+                <p>Discover. Connect. Get involved.</p>
+
+            </div>
+
         </div>
 
         <nav>
 
+            <!-- Navigation Links -->
             <ul>
                 <li><a href="index.html">Home</a></li>
+                <li><a href="#upcoming-events">Upcoming Events</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="event.html">Featured Event</a></li>
 
             </ul>
@@ -52,182 +62,203 @@
 
                 <h2>Find Your Next Campus Experience!</h2>
 
-                <p> 
-                    Explore events, activities, and opportunities happening across Birchmere University. 
+                <p>
+                    Explore events, activities, and opportunities happening across Birchmere University.
                     Meet new people, discover student organizations, and get involved on campus!
                 </p>
 
-                <a class="button" href="#upcoming-events"> View Upcoming Events
+                <a class="button" href="event.html"> View Upcoming Events
                 </a>
 
             </div>
 
             <figure class="hero-image">
+
                 <img src="images/campus-index.jpg" alt="Students walking around Birchmere Campus">
+
                 <figcaption>
                     There is always something happening on campus!
                 </figcaption>
+
             </figure>
 
         </section>
 
         <!-- Upcoming events display -->
 
-        <!-- Event Card 1 -->
+        <section id="upcoming-events" class="events-section">
 
-        <article class="event-card featured">
-            <figure>
-                <img src="images/event-1.jpg" alt="Students interacting with student organizations.">
-                <figcaption> Featured Event</figcaption>
-            </figure>
+            <h2>Upcoming Events</h2>
 
-            <div class="event-card-content">
+            <div class="events-grid">
 
-                <p class="category">Student Life</p>
+                <!-- Event Card 1 -->
 
-                <h3>Fall Student Organization Fair</h3>
 
-                <p> <time datetime="2026-09-12T11:00"> September 12, 2026 | 11:00 AM </time> </p>
+                <article class="event-card-featured">
 
-                <p> University Quad </p>
+                    <figure>
 
-                <p>
-                    Meet all the student organizations from Birchmere University! Learn about each of the campus 
-                    clubs and find a community that interest's you.
-                </p>
+                        <img src="images/event-1.jpg" alt="Students interacting with student organizations.">
+                        <figcaption> Featured Event</figcaption>
 
-                <a href="event.html"> View Details</a>
+                    </figure>
+
+                    <div class="event-card-content">
+
+                        <p class="category">Student Life</p>
+
+                        <h3>Fall Student Organization Fair</h3>
+
+                        <p> <time datetime="2026-09-12T11:00"> September 12, 2026 | 11:00 AM </time> </p>
+
+                        <p> University Quad </p>
+
+                        <p>
+                            Meet all the student organizations from Birchmere University! Learn about each of the campus
+                            clubs and find a community that interest's you.
+                        </p>
+
+                        <a href="event.html"> View Details</a>
+                    </div>
+
+                </article>
+
+                <!-- Event Card 2 -->
+
+                <article class="event-card">
+
+                    <figure>
+
+                        <img src="images/event-2.jpg" alt="Students celebrating Hispanic Heritage Month">
+
+                        <figcaption>Hispanic Heritage Month Celebration</figcaption>
+
+                    </figure>
+
+                    <div class="event-card-content">
+
+                        <p class="category">Culture</p>
+
+                        <h3>Celebrating Hispanic Heritage Month</h3>
+
+                        <p> <time datetime="2026-09-15T12:00"> September 15, 2026 | 12:00 PM </time> </p>
+
+                        <p>Student Union Plaza</p>
+
+                        <p> Celebrate Hispanic heritage and culture through music, food, activities, and student
+                            performances!
+                        </p>
+
+                        <a href="event.html">View Details</a>
+
+                    </div>
+
+                </article>
+
+                <!-- Event Card 3 -->
+
+                <article class="event-card">
+
+                    <figure>
+
+                        <img src="images/event-3.jpg" alt="Students speaking with employers at a career fair.">
+                        <figcaption>Featured Event</figcaption>
+
+                    </figure>
+
+                    <div class="event-card-content">
+
+                        <p class="category">Career</p>
+
+                        <h3>Fall Career Fair</h3>
+
+                        <p> <time datetime="2026-10-02T10:00"> October 2, 2026 | 10:00 AM </time> </p>
+
+                        <p>University Conference Center</p>
+
+                        <p> Connect with employers, explore career options, and practice your professional introduction.
+                        </p>
+
+                        <a href="event.html">View Details</a>
+
+                    </div>
+
+                </article>
+
+                <!-- Event Card 4 -->
+
+                <article class="event-card">
+                    <figure>
+
+                        <img src="images/event-4.jpg"
+                            alt="Outdoor Movie screening with students sitting outside in the lawn.">
+                        <figcaption>Campus Activities</figcaption>
+
+                    </figure>
+
+                    <div class="event-card-content">
+
+                        <p class="category">Entertainment</p>
+
+                        <h3>Outdoor Movie Night</h3>
+
+                        <p> <time datetime="2026-10-01T19:30"> October 1, 2026 | 7:30 PM </time></p>
+
+                        <p>Campus Lawn</p>
+
+                        <p> Bring a blanket and enjoy a free movie under the stars with your friends! </p>
+
+                        <a href="event.html">View Details</a>
+                    </div>
+
+                </article>
+
+                <!-- Event Card 5 -->
+
+                <article class="event-card">
+
+                    <figure>
+
+                        <img src="images/event-5.jpg" alt="Students working together for a volunteer project">
+
+                        <figcaption>Community Service</figcaption>
+
+                    </figure>
+
+                    <div class="event-card-content">
+
+                        <p class="category">Volunteer</p>
+
+                        <h3>Campus Volunteer Day</h3>
+
+                        <p> <time datetime="2026-10-03T11:00"> October 3, 2026 | 11:00 AM </time> </p>
+
+                        <p>Community Engagement Center</p>
+
+                        <p>
+                            Spend the morning giving back through local service
+                            projects organized by the university.
+                        </p>
+
+                        <a href="event.html">View Details</a>
+
+                    </div>
+
+                </article>
+
             </div>
 
-        </article>
-
-        <!-- Event Card 2 -->
-
-        <article class="event-card">
-
-            <figure>
-
-                <img src="images/event-2.jpg" alt="Students celebrating Hispanic Heritage Month">
-
-                <figcaption>Hispanic Heritage Month Celebration</figcaption>
-
-            </figure>
-
-            <div class="event-card-content">
-
-                <p class="category">Culture</p>
-
-                <h3>Celebrating Hispanic Heritage Month</h3>
-
-                <p> <time datetime="2026-09-15T12:00"> September 15, 2026 | 12:00 PM </time> </p>
-
-                <p>Student Union Plaza</p>
-
-                <p> Celebrate Hispanic heritage and culture through music, food, activities, and student performances!</p> 
-                
-                <a href="event.html">View Details</a>
-
-            </div>
-
-        </article>
-
-        <!-- Event Card 3 -->
-
-        <article class="event-card">
-
-            <figure>
-
-                <img src="images/event-3.jpg" alt="Students speaking with employers at a career fair.">
-
-            </figure>
-
-            <div class="event-card-content">
-
-                <p class="category">Career</p>
-
-                <h3>Fall Career Fair</h3>
-
-                <p> <time datetime="2026-10-02T10:00"> October 2, 2026 | 10:00 AM </time> </p>
-
-                <p>University Conference Center</p>
-
-                <p> Connect with employers, explore career options, and practice your professional introduction. </p>
-
-                <a href="event.html">View Details</a>
-                
-            </div>
-
-        </article>
-
-        <!-- Event Card 4 -->
-
-        <article class="event-card">
-            <figure>
-
-                <img src="images/event-4.jpg"
-                    alt="Outdoor Movie screening with stuednts sitting outside in the lawn.">
-                <figcaption>Campus Activities</figcaption>
-
-            </figure>
-
-            <div class="event-card-content">
-
-                <p class="category">Entertainment</p>
-
-                <h3>Outdoor Movie Night</h3>
-
-                <p> <time datetime="2026-10-01T19:30"> October 1, 2026 | 7:30 PM </time></p>
-
-                <p>Campus Lawn</p>
-
-                <p> Bring a blanket and enjoy a free movie under the stars with your friends! </p>
-
-                <a href="event.html">View Details</a>
-            </div>
-
-        </article>
-
-        <!-- Event Card 5 -->
-
-        <article class="event-card">
-
-            <figure>
-
-                <img src="images/event-5.jpg" alt="Students working together for a volunteer project">
-
-                <figcaption>Community Service</figcaption>
-
-            </figure>
-
-            <div class="event-card-content">
-
-                <p class="category">Volunteer</p>
-
-                <h3>Campus Volunteer Day</h3>
-
-                <p> <time datetime="2026-10-03T11:00"> October 3, 2026 | 11:00 AM </time> </p>
-
-                <p>Community Engagement Center</p>
-
-                <p> 
-                    Spend the morning giving back through local service 
-                    projects organized by the university. 
-                </p>
-
-                <a href="event.html">View Details</a>
-
-            </div>
-
-        </article>
+        </section>
 
         <!-- About Section (Information)-->
 
-        <section id="about-section">
+        <section id="about" class="about-section">
 
             <h2>About Birchmere's Campus Events</h2>
 
             <p>
-                Birchmere Campus Events allows students to discover activities and seek opportunities that are 
+                Birchmere Campus Events allows students to discover activities and seek opportunities that are
                 happening on campus. This guide brings important event information into just one singular place!
             </p>
 
@@ -266,8 +297,12 @@
             <nav>
 
                 <ul>
+
                     <li><a href="index.html">Home</a></li>
+                    <li><a href="#upcoming-events">Upcoming Events</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="event.html">Featured Event</a></li>
+                    
                 </ul>
 
             </nav>

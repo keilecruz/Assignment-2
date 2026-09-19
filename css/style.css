@@ -1,0 +1,458 @@
+/* general style for the website layout */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f3f0;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    color: #6b4c7a;
+}
+
+a {
+    color: #9b6db0;
+}
+
+/* header section */
+
+header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #ddd;
+}
+
+.site-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px 20px;
+    position: relative;
+    text-align: center;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+}
+
+.site-header p {
+    margin: 5px 0 0;
+}
+
+/* Header text */
+
+.header-text {
+    width: 350px;
+    flex-shrink: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-text {
+    width: 100%;
+    text-align: center;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    white-space: nowrap;
+}
+
+.site-header p {
+    margin: 5px 0 0;
+}
+
+/* Uni-logo design */
+
+.site-header img {
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+/* main section */
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin: 50px 0;
+}
+
+/* hero section */
+
+
+.hero {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: 0 auto 25px;
+}
+
+.hero-image {
+    margin: 30px auto 0;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 700px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.hero-image figcaption {
+    margin-top: 8px;
+    text-align: center;
+    font-style: italic;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6b4c7a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #9b6db0;
+}
+
+/* Upcoming events section */
+
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.event-card,
+.event-card-featured {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.event-card figcaption,
+.event-card-featured figcaption {
+    text-align: center;
+}
+
+.event-card figure,
+.event-card-featured figure {
+    margin: 0;
+}
+
+.event-card img,
+.event-card-featured img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.event-card-content {
+    padding: 20px;
+}
+
+.event-card h3 {
+    margin-top: 5px;
+}
+
+.events-section h2{
+    text-align: center;
+}
+
+.event-card-content p {
+    margin: 8px 0;
+}
+
+.event-card-content a {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.category {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/* about section */
+
+#about {
+    background-color: white;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+#about ul {
+    padding-left: 25px;
+}
+
+/* event introduction section */
+
+.event-intro {
+    text-align: center;
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.event-intro h2 {
+    font-size: 2.5rem;
+}
+
+.event-intro figure {
+    margin: 30px auto;
+}
+
+.event-intro img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.event-intro figcaption {
+    margin-top: 8px;
+    font-style: italic;
+}
+
+/* event main and sidebar section */
+
+.event-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.event-main-content {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.event-main-content section {
+    margin: 0 0 35px;
+}
+
+.event-main-content section {
+    margin-bottom: 0;
+}
+
+.event-main-content h2 {
+    margin-top: 0;
+}
+
+.event-main-content li {
+    margin-bottom: 8px;
+}
+
+.event-sidebar {
+    background-color: white;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.event-sidebar h2 {
+    margin-top: 0;
+}
+
+.event-sidebar dl {
+    margin-bottom: 25px;
+}
+
+.event-sidebar dt {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.event-sidebar dd {
+    margin-left: 0;
+}
+
+.event-sidebar .button {
+    width: 100%;
+    text-align: center;
+}
+
+/* related events section */
+
+.related-event-lists {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.related-event-card {
+    flex: 1 1 250px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.related-event-card figure {
+    margin: 0;
+}
+
+.related-event-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.related-event-card div {
+    padding: 20px;
+}
+
+.related-event-card h3 {
+    margin-top: 5px;
+}
+
+/* footer section */
+
+footer {
+    margin-top: 60px;
+    background-color: #ffffff;
+    border-top: 2px solid #ddd;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.footer-content nav ul {
+    padding: 0;
+}
+
+/* responsive design section */
+
+@media (max-width: 900px) {
+
+    .events-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .event-card.featured {
+        grid-column: span 2;
+    }
+
+    .event-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .event-sidebar {
+        order: 2;
+    }
+
+    .footer-content {
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .site-header h1 {
+        font-size: 1.8rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero {
+        padding: 40px 10px;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .events-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .event-card.featured {
+        grid-column: span 1;
+    }
+
+    .event-main-content {
+        padding: 20px;
+    }
+
+    .event-intro h2 {
+        font-size: 2rem;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+}
